@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "super";
+    src: url("./minor\ projescts\ fonts.ttf");
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: super !important;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main {
+    position: relative !important;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: blue;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+    padding: 0 , 70px;
+    /* background-color: #fff; */
+}
+#nav>h1{
+    font-size:20px;
+    margin-left:10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: white;
+}
+#left>h1{
+    font-size: 500px;
+    margin-left:10%;
+    font-family: bandeins;
+    color: white;
+}
+
+#page2 {
+    /* height: 100vh; */
+    width: 100vw;
+    position: relative;
+    background-color: white;
+    
+}
+#menu{
+  width:6%;
+  height:40%;
+  /* background-color: black; */
+  border: 10px solid aqua;
+  border-radius:50%;
+  margin-right: 12%;
+}
+#more>i{
+    font-size: 100px;
+    background-color: black;
+}
+#page2>h2{
+    font-size:250px;
+    color: blue;
+    width: 70vw;
+    font-family: bandeins;
+    margin-left: 5vw;
+    margin-top: 18vh;
+    margin-bottom: 10vh;
+    /* background-color:red; */
+    line-height:150%;
+}
+.page2Img{
+    width:70vw;
+    height:60vh;
+    background-color: red;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:20vh;
+}
+.page2Img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius:20px;
+    position: relative;
+    overflow: hidden;
+}
+.page2Img>h3{
+    font-size: 150px;
+    position: absolute;
+    top:100%;
+    bottom:-20%;
+    margin-left: 4%;
+    line-height:150%;
+    color: white;
+    overflow: hidden;
+}
+.page2Img>h2{
+    font-size: 200px;
+    color: blue;
+    /* margin-top: auto; */
+    margin-bottom: 20vh;
+
+}
+.naam{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;    
+}
+.naam:nth-child(2n){
+    background-color: aliceblue;
+}
