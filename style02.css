@@ -52,7 +52,7 @@ body {
 #fullScreenNav {
     height: 100vh;
     top: 0;
-    background-color:blue;
+    background-color:#1217B8;
     width: 100vw;
     position: absolute;
     left: -100vw;
@@ -69,11 +69,13 @@ body {
     position: relative;
     bottom: 66vh;
     left: 80vw;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 #back:hover {
     cursor: pointer;
     border: 2px solid red;
+    
 }
 
 #back>i {
@@ -82,19 +84,19 @@ body {
     display: flex;
     justify-content: center;
     justify-items: center;
-    margin-top: 10px;
+    margin-top: 13px;
 }
 
 #newnav {
     width: 100%;
     height: 80px;
     padding: 0 100px;
-
-    /* background-color: #fff; */
+/* background-color: #fff; */
     position: absolute;
     top: 10%;
-
+   
 }
+
 
 #newnav>h1 {
     font-family: sans-serif;
@@ -108,6 +110,7 @@ body {
     color: white;
     margin-top: 3pc;
     margin-left: 5pc;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 5s;
 }
 
 #sub-text>h2 {
@@ -126,7 +129,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 #nav {
@@ -138,7 +141,6 @@ body {
     justify-items: center;
     /* background-color: #fff; */
     position: absolute;
-
     top: 2% !important;
 
 }
@@ -194,7 +196,7 @@ body {
     font-weight: 400;
 }
 
-#left>h2>span {
+#left>i{
     font-style: italic;
     font-family: gilroy;
     letter-spacing: 10px;
@@ -206,11 +208,11 @@ body {
 }
 
 #right {
-    width:40vw;
+    width:30vw;
     height: 100vh;
     position: relative;
     overflow: hidden;
-
+    left:8%;
 }
 
 #rightpart1 {
@@ -456,9 +458,9 @@ body {
 }
 
 #nav2 {
-    margin-left: 10vw;
+    margin-left:5vw;
     margin-top: 2vw;
-    margin-right: 15vw;
+    margin-right: 10vw;
     line-height: 45px;
     font-family: sans-serif;
 }
@@ -470,7 +472,7 @@ body {
 #nav3 {
     margin-left:3vw;
     margin-top: 2vw;
-    margin-right: 10vw;
+    margin-right:10vw;
     line-height: 45px;
     font-family: sans-serif;
 }
@@ -482,7 +484,7 @@ body {
 #lastpage {
     width: 100vw !important;
     height: 100vh;
-    background-color: blue;
+    background-color:#1217B8;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     margin-top: 20%;
@@ -523,15 +525,39 @@ body {
     position: absolute;
     z-index: 1;
     color: #fff;
-    top:45vh;
-    left:8vw;
+    top:40vh;
+    left:5vw;
     font-size:40px;
     font-family: sans-serif;
 }
 .ri-arrow-right-s-line{
     margin-top: 10px;
+    color: rgb(217, 2, 74);
 }
 #rightar{
     position: absolute;
     top: -5px;
 }
+.cards>p>span{
+    font-size: 20px;
+}
+#c4>p{
+    color:blue;
+}
+#c3>p{
+    color:rgb(14, 80, 193);
+}
+#lastpage>video{
+    width: auto;
+    height:60vh;
+    position: relative;
+    left:60vw;
+    bottom:21vw;
+    color: #010DBF;
+}
+.ri-heart-pulse-line i{
+    position:relative;
+    top:5%;
+}
+
+/* responsive */
